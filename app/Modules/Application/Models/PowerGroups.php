@@ -2,10 +2,10 @@
 
 namespace App\Modules\Application\Models;
 
-use App\Library\DataBase\Mysql;
+use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
 use App\Modules\Application\Library\Enum\PowerStatus;
 
-class PowerGroups extends Mysql\DataBase
+class PowerGroups extends DataBase
 {
     /**
      * PowerGroups数据模型对应表名

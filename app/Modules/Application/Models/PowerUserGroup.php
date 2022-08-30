@@ -2,10 +2,10 @@
 
 namespace App\Modules\Application\Models;
 
-use App\Library\DataBase\Mysql;
+use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
 use JetBrains\PhpStorm\ArrayShape;
 
-class PowerUserGroup extends Mysql\DataBase
+class PowerUserGroup extends DataBase
 {
     /**
      * PowerUserGroup数据模型对应表名

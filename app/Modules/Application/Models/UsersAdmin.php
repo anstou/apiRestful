@@ -2,9 +2,9 @@
 
 namespace App\Modules\Application\Models;
 
-use App\Library\DataBase\Mysql;
+use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
 
-class UsersAdmin extends Mysql\DataBase
+class UsersAdmin extends DataBase
 {
 
     /**

@@ -2,11 +2,11 @@
 
 namespace App\Modules\Application\Models;
 
-use App\Library\DataBase\Mysql;
+use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
 use App\Modules\Application\Library\Enum\AdminPowerMethod as Method;
 use App\Modules\Application\Library\Enum\AdminPowerStatus as Status;
 
-class AdminPower extends Mysql\DataBase
+class AdminPower extends DataBase
 {
 
     /**

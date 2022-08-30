@@ -2,8 +2,8 @@
 
 namespace App\Modules\Application\Library\Token;
 
-use App\Library\Cache\FileStorage;
-use App\Library\InterfaceWarehouse\CacheInterface;
+use ApiCore\Library\Cache\FileStorage;
+use ApiCore\Library\InterfaceWarehouse\CacheInterface;
 
 class Token
 {
@@ -11,9 +11,9 @@ class Token
 
     /**
      *
-     * @param CacheInterface $storage 储存驱动
+     * @param FileStorage $storage 储存驱动
      */
-    public function __construct(protected CacheInterface $storage = new FileStorage('token'))
+    public function __construct(protected FileStorage $storage = new FileStorage('token'))
     {
     }
 
