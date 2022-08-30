@@ -8,18 +8,18 @@
     "files": [
     ]
   },
-  "require": {
-    "php": ">=8.1.0",
-    "anstou/api-core": "dev-main",
-    "ext-pdo": "*",
-    "ext-openssl": "*"
-  },
-  "license": "anstou",
   "authors": [
     {
       "name": "anst",
       "email": "anstou@163.com"
     }
   ],
-  "minimum-stability": "dev"
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1.0",
+    "anstou/api-core": "dev-main",
+    "ext-pdo": "*",
+    "ext-openssl": "*"
+  }
 }
