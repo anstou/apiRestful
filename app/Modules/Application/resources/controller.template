@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Modules\{module_name}\Controllers;
+
+use ApiCore\App;
+use ApiCore\Library\ApiRestful\ApiRestful;
+
+class {controller_name} extends App
+{
+
+
+}

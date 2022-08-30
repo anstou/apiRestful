@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Modules\{module_name}\Filter;
+
+use ApiCore\Library\ApiRestful\ApiRestful;
+use ApiCore\Library\InterfaceWarehouse\Filter;
+use ApiCore\Library\Http\Request;
+
+/**
+ *
+ * 所属控制器: {@link {controller_namespace}}
+ */
+class {filter_name} extends Filter
+{
+    public bool $authorize = true;
+
+    public static array $rules = [];
+
+}

@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Modules\{module_name}\Models;
+
+use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
+
+class {model_name} extends DataBase
+{
+    /**
+     * {model_name}数据模型对应表名
+     *
+     * @var null|string
+     */
+    protected static ?string $table = '{table_name}';
+
+    /**
+     * 该表中所有字段名
+     * SHOW COLUMNS FROM `{table_name}`
+     *
+     * @var string[]
+     */
+    protected static array $columns = [{table_columns}];
+
+
+
+}

@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Modules\{module_name}\Library;
+
+class Init
+{
+    public static function run(\PDO $PDO): bool
+    {
+        return false;
+    }
+}
