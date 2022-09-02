@@ -46,7 +46,7 @@ class Module extends App
             '控制器类' => 'Controllers',
             '数据库操作类' => 'Models',
             '配置文件' => 'Config',
-            '控制器方法过滤类' => 'Filter',
+            '控制器方法过滤类' => 'Filters',
             '模块类库' => 'Library',
             '资源库' => 'resource',
             '命令行' => 'Commands',

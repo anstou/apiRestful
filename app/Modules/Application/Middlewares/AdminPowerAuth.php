@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Modules\Application\Middleware;
+namespace App\Modules\Application\Middlewares;
 
-use App\Library\ApiRestful\ApiCode;
+use ApiCore\Library\ApiRestful\ApiCode;
 use ApiCore\Library\ApiRestful\ApiRestful;
-use App\Library\InterfaceWarehouse\MiddlewareBase;
+use ApiCore\Library\InterfaceWarehouse\MiddlewareBase;
 
 class AdminPowerAuth extends MiddlewareBase
 {

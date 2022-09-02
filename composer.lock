@@ -12,19 +12,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/anstou/ApiCore.git",
-                "reference": "e60363eeb6c761d9729cb69c8a052d1fa02aae00"
+                "reference": "948b3124920010ac59d984b701f5e248e6c1be98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anstou/ApiCore/zipball/e60363eeb6c761d9729cb69c8a052d1fa02aae00",
-                "reference": "e60363eeb6c761d9729cb69c8a052d1fa02aae00",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/anstou/ApiCore/zipball/948b3124920010ac59d984b701f5e248e6c1be98",
+                "reference": "948b3124920010ac59d984b701f5e248e6c1be98",
+                "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
@@ -60,7 +54,7 @@
                 "issues": "https://github.com/anstou/ApiCore/issues",
                 "source": "https://github.com/anstou/ApiCore/tree/main"
             },
-            "time": "2022-08-19T16:00:29+00:00"
+            "time": "2022-09-02T07:49:49+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -68,19 +62,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5df32386644b4653018f14e1bd00e4db3d0e2d84"
+                "reference": "e68c00670e310e276da9624d75965f5d2f28aa80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5df32386644b4653018f14e1bd00e4db3d0e2d84",
-                "reference": "5df32386644b4653018f14e1bd00e4db3d0e2d84",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e68c00670e310e276da9624d75965f5d2f28aa80",
+                "reference": "e68c00670e310e276da9624d75965f5d2f28aa80",
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
@@ -94,7 +82,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -103,7 +91,7 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
                 "phpunit/phpunit": "^9.5.16",
-                "predis/predis": "^1.1",
+                "predis/predis": "^1.1 || ^2",
                 "ruflin/elastica": "^7",
                 "symfony/mailer": "^5.4 || ^6",
                 "symfony/mime": "^5.4 || ^6"
@@ -168,7 +156,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-17T21:30:28+00:00"
+            "time": "2022-08-20T13:21:44+00:00"
         },
         {
             "name": "psr/log",
@@ -182,13 +170,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/fe5ea303b0887d5caefd3d431c3e61ad47037001",
                 "reference": "fe5ea303b0887d5caefd3d431c3e61ad47037001",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=8.0.0"

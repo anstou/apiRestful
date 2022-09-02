@@ -2,6 +2,7 @@
 
 namespace App\Server;
 
+use ApiCore\Library\Command\Command;
 use ApiCore\Library\Http\Route\Route;
 use ApiCore\Library\InterfaceWarehouse\Facade;
 
@@ -17,6 +18,7 @@ class Bootstrap
     {
         Facade::loadFacade();
         Route::loadRoutes(true);
+        Command::Init([path('app' . DIRECTORY_SEPARATOR . 'Commands')]);
     }
 
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Application\Command;
+namespace App\Modules\Application\Commands;
 
 use ApiCore\Library\Http\Route\Route;
 use App\Modules\Application\Models\PowerControllers;

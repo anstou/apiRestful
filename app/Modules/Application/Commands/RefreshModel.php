@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Application\Command;
+namespace App\Modules\Application\Commands;
 
 use ApiCore\Library\DataBase\Drive\Mysql\Connect;
 use ApiCore\Library\DataBase\Drive\Mysql\DataBase;
